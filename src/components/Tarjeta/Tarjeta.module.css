@@ -1,0 +1,29 @@
+.card {
+  background-color: #d0d4c5; /* Color de fondo */
+  border-radius: 20px;      /* Bordes redondeados */
+  box-shadow: 2px 3px 15px #ECF0F1; /* Sombra */
+  max-width: 350px;         /* Ancho máximo */
+  padding: 20px;            /* Espacio interno */
+  margin: 20px;             /* Espacio externo */
+  overflow: hidden;         /* Ocultar contenido que se salga */
+  display: flex;
+  flex-direction: column;  /* Organizar el contenido en columna */
+  align-items: center;     /* Centrar el contenido horizontalmente */
+}
+
+
+
+.cardImg {
+        width: 100%; /* Asegura que la imagen ocupe el ancho de la card */
+        height: auto; /* Mantiene la proporción de la imagen */
+        object-fit: cover; /* Recorta la imagen para que cubra el área sin deformarse */
+    }
+
+    /* Para una imagen circular */
+.cardImgCircular {
+        border-radius: 70%; /* Crea una forma circular */
+        width: 100px; /* Ejemplo de tamaño */
+        height: 100px;
+        object-fit: cover;
+        margin: 10px auto; /* Centra la imagen si está en un contenedor que lo permite */
+    }
